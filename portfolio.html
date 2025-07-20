@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyansh Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: var(--secondary-color);">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#">CS <span style="color: var(--primary-color);">Portfolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Hello, I'm <span class="text-primary">Divyansh</span></h1>
+                    <h2 class="fw-light mb-4">B.Tech Computer Science Student</h2>
+                    <p class="lead mb-4">Passionate developer specializing in full-stack web development   and Mobile apps development using React Native.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4 py-2">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-2">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="Divyansh_image.jpg" alt="Portrait of Alex Johnson, a young computer science student with glasses working on a laptop" class="img-fluid rounded-circle" style="border: 5px solid rgba(255,255,255,0.3);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container py-2">
+            <h2 class="section-title">About Me</h2>
+          <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="lead mb-5">I'm a 3rd year B.Tech Computer Science student with a passion for developing innovative solutions to complex problems. My academic journey has equipped me with strong fundamentals in algorithms, data structures, and Web development principles.</p>
+                    
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <div class="skills-card bg-white">
+                                <i class="fas fa-laptop-code mb-3" style="font-size: 2rem; color: var(--primary-color);"></i>
+                                <h4>Programming</h4>
+                                <p>3+ years of experience in various programming languages and frameworks.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skills-card bg-white">
+                                <i class="fas fa-project-diagram mb-3" style="font-size: 2rem; color: var(--primary-color);"></i>
+                                <h4>Projects</h4>
+                                <p>Completed 5 academic and personal projects with real-world applications.</p>
+                            </div>
+                        </div>
+                       <!--Team work is remender, I would Add after some time-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5 bg-light" id="skills">
+        <div class="container py-5">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="skills-card bg-white">
+                        <h4 class="mb-3"><i class="fab fa-java me-2" style="color: var(--primary-color);"></i> Java</h4>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-primary" style="width: 85%;">70% to 80%</div>
+                        </div>
+                        <p class="small">Core Java, Java Object Oriented Programming</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skills-card bg-white">
+                        <h4 class="mb-3"><i class="fab fa-js me-2" style="color: var(--primary-color);"></i> JavaScript</h4>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-primary" style="width: 88%;">80%</div>
+                        </div>
+                        <p class="small">React, Node.js, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skills-card bg-white">
+                        <h4 class="mb-3"><i class="fas fa-database me-2" style="color: var(--primary-color);"></i> Databases</h4>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-primary" style="width: 82%;">75%</div>
+                        </div>
+                        <p class="small">SQL, MySQL, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skills-card bg-white">
+                        <h4 class="mb-3"><i class="fab fa-html5 me-2" style="color: var(--primary-color);"></i> HTML/CSS</h4>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-primary" style="width: 95%;">95%</div>
+                        </div>
+                        <p class="small">Bootstrap, Tailwind, Responsive Design</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skills-card bg-white">
+                        <h4 class="mb-3"><i class="fab fa-git-alt me-2" style="color: var(--primary-color);"></i> Git</h4>
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+                        </div>
+                        <p class="small">GitHub, GitLab, Version Control</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5" id="projects">
+        <div class="container py-5">
+            <h2 class="section-title">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.ZVdjT86vcoz-86XUuSLpvAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top project-img" alt="Screenshot of E-commerce platform showing product listings">
+                        <div class="card-body">
+                            <h4 class="card-title">E-Learning Platform</h4>
+                            <p class="card-text text-muted">Full-stack e-Learning website contains the paid and free cources.In this website also contain the question papers to practice for the candidate/particepant. </p>
+                            <span class="badge bg-primary me-1">React</span>
+                            <span class="badge bg-primary me-1">Node.js</span>
+                            <span class="badge bg-primary">MongoDB</span>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <img src="https://www.spyne.ai/blogs/wp-content/uploads/2022/10/Untitled-1-copy-1024x576.webp" class="card-img-top project-img" alt="University classroom scheduling system interface with calendar view">
+                        <div class="card-body">
+                            <h4 class="card-title">Car Selling System</h4>
+                            <p class="card-text text-muted">A responsive and dynamic Car Selling System built with React.js that provides an intuitive interface for users to browse, buy, and sell vehicles online. This frontend project focuses on delivering a seamless user experience with modern UI components, interactive features, and smooth navigation.</p>
+                            <span class="badge bg-primary me-1">React JS</span>
+                            <span class="badge bg-primary me-1">Bootstrap</span>
+                            <span class="badge bg-primary">CSS3</span>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.eZpmxt_m8u0YAIEjUaoBSgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top project-img" alt="Mobile app interface for mental health tracking with mood charts">
+                        <div class="card-body">
+                            <h4 class="card-title">Stop Watch</h4>
+                            <p class="card-text text-muted">It is a mobile app which performce the normal stop watch.</p>
+                            <span class="badge bg-primary me-1">React Native</span>
+                            
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card card h-100">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.htZs7cDdL00CmoT_ZE_WMAHaDo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top project-img" alt="Image recognition demo showing classification of objects">
+                        <div class="card-body">
+                            <h4 class="card-title">Food Ordering Website</h4>
+                            <p class="card-text text-muted">The Food Ordering Website is an innovative fullstack application designed to provide users with a seamless online food ordering experience. This project aims to connect customers with local restaurants, allowing them to browse menus, place orders, and enjoy their favorite meals from the comfort of their homes. Currently under construction, this application will leverage modern web technologies to deliver a robust and user-friendly platform.</p>
+                            <span class="badge bg-primary me-1">React Js</span>
+                            <span class="badge bg-primary me-1">Node Js</span>
+                            <span class="badge bg-primary">MongoDB</span>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-5 bg-light" id="education">
+        <div class="container py-5">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2025</div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">B.Tech Computer Science</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Moradabad Institute of Technology</h6>
+                                    <p class="card-text">Current CGPA: 6.5/10</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2021</div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">Higher Secondary (12th Grade)</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Parker Intermediate College,Moradabad </h6>
+                                    <p class="card-text">Specialized in Physics, Chemistry, Mathematics</p>
+                                    <ul>
+                                        <li>Scored 58.65% in 12<sup>th</sup> Standard </li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018 - 2019</div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">Primary Education</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Parker Intermediate College,Moradabad</h6>
+                                    <p class="card-text">Completed 10th grade with distinction in all subjects.</p>
+                                    <ul>
+                                        <li>Scored 63.66% in 10<sup>th</sup> Standard</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container py-5">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h3 class="mb-4">Send me a message</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="h-100">
+                        <h3 class="mb-4">Contact Information</h3>
+                        <div class="mb-4">
+                            <h5 class="mb-2"><i class="fas fa-map-marker-alt me-2 text-primary"></i> Address</h5>
+                            <p>Moradabad(244001), Uttra Pradesh, India</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="mb-2"><i class="fas fa-envelope me-2 text-primary"></i> Email</h5>
+                            <p>dk71*****@gmail.com</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="mb-2"><i class="fas fa-phone-alt me-2 text-primary"></i> Phone</h5>
+                            <p>+91 70*** **420</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="mb-3">Connect with me</h5>
+                            <div class="d-flex">
+                                <a href="#" class="social-icon me-2"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/Divyansh7131" class="social-icon me-2"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/dk71314482022/?next=%2F" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>© 2025 Divyansh. All rights reserved.</p>
+            <p class="mt-3 mb-0">Made with <span style="color: var(--accent-color);">❤</span> by a Computer Science Student</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>
+
